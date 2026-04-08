@@ -13,6 +13,7 @@ load_dotenv(
 class Settings(BaseSettings):
 
     GROQ_API_KEY: str 
+    DATA_BASE: str
     FIRECRAWL_API_KEY: str
     ELEVENLABS_KEY: str
     SECRET_KEY: str 
